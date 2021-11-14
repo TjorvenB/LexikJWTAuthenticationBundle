@@ -1,7 +1,19 @@
 CHANGELOG
 =========
 
-For a diff between two versions https://github.com/lexik/LexikJWTAuthenticationBundle/compare/v1.0.0...v2.13.0
+For a diff between two versions https://github.com/lexik/LexikJWTAuthenticationBundle/compare/v1.0.0...v2.14.1
+
+## [2.14.1](https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.14) (2021-11-02)
+
+* bug [\#942](https://github.com/lexik/LexikJWTAuthenticationBundle/pull/942) Fix Symfony 5.3 compatibility ([chalasr](https://github.com/chalasr))
+
+## [2.14.0](https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.14) (2021-11-01)
+
+* feature [\#923](https://github.com/lexik/LexikJWTAuthenticationBundle/pull/923) Add 3 new getter method to JWTTokenAuthenticator ([fd6130](https://github.com/fd6130))
+* bug [\#931](https://github.com/lexik/LexikJWTAuthenticationBundle/pull/931) Only attempt split_cookie extraction if all of the cookies are present ([carlobeltrame](https://github.com/carlobeltrame))
+* feature [\#925](https://github.com/lexik/LexikJWTAuthenticationBundle/pull/925) Allow to set provider in jwt authenticator ([fd6130](https://github.com/fd6130))
+* feature [\#937](https://github.com/lexik/LexikJWTAuthenticationBundle/pull/937) Symfony 6 Compatibility ([mbabker](https://github.com/mbabker))
+* bug [\#922](https://github.com/lexik/LexikJWTAuthenticationBundle/pull/922) Fix error when trying to decode token using new authenticator system ([fd6130](https://github.com/fd6130))
 
 ## [2.13.0](https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.13) (2021-09-15)
 
